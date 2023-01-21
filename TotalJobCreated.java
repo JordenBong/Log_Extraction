@@ -7,7 +7,7 @@ public class TotalJobCreated {
         System.out.println("+-------------------------------+");
         System.out.printf("%-12s%-12s", "Month", "Number of Job Created");
         System.out.println("\n" + "+-------------------------------+");
-    //calculate total job allocate
+    //calculate total job allocate and backfill
     int totalJobCreated = 0;
         for (int i = 0; i < month.length; i++) {
         System.out.printf("%-12s%-12s", month[i], countJobAllocate[i]+countJobBackFill[i]);
