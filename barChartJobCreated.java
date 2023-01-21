@@ -22,7 +22,7 @@ public class barChartJobCreated extends Application {
         final NumberAxis yAxis = new NumberAxis();
         final BarChart<String, Number> bc =
                 new BarChart<String, Number>(xAxis, yAxis);
-        bc.setTitle("Number of Jobs Created every month from June to December");
+        bc.setTitle("Number of Jobs Created through Allocate every month from June to December");
         xAxis.setLabel("Month");
         yAxis.setLabel("Number of Job Created");
         JobCreated a = new JobCreated();
